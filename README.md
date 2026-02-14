@@ -1,6 +1,6 @@
 # Nvim setup and configuration
 
-**NVIM** v0.7.2 <br/>
+**NVIM** v0.11.6 <br/>
 **LuaJIT** 2.1.0-beta3
 
 Run `:checkhealth` for more info
@@ -9,18 +9,14 @@ Run `:checkhealth` for more info
 
   - A nice terminal
 
+I am currently using Alacritty
+
 Copy / paste 
 
 OSx (`pbcopy`)-> do nothing <br />
 Ubuntu (`xsel`) -> `sudo apt-get install xsel`
+
 Install __nerd fonts__ for icons
-
-Add Vim support
-
-```sh
-pip install pynvim
-npm i -g neovim
-```
 
 OSx
 
@@ -54,13 +50,12 @@ cd nvim
 
 ### LSP Packages
 
-General info on instaling language servers.<br />
+General info on installing language servers.<br />
 Docs: https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
 
-  - Python: `npm install -g pyright`
+  - Python: `pip install basedpyright`
   - Docker: `npm install -g dockerfile-language-server-nodejs`
-  - HTML/CSS/JSON/ESLint: `npm i -g vscode-langservers-extracted`
-  - Typescript: `npm install -g typescript typescript-language-server`
+  - Typescript/HTML/CSS/JSON/ESLint: `npm i -g vscode-langservers-extracted`
   - GraphQL: `npm install -g graphql-language-service-cli`
   - Markdown: Via LSPInstaller
 
