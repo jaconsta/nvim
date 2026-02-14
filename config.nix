@@ -1,15 +1,17 @@
 {
   packageOverrides = pkgs: with pkgs; {
     myPackages = pkgs.buildEnv {
-      make = "ja-apps";
+      name= "ja-apps";
       paths = [
         starship
         neovim
         fd
         lazygit
         ripgrep
+        xsel
         mise
-      ]
-    }
-  }
+        typescript-language-server
+      ];
+    };
+  };
 }

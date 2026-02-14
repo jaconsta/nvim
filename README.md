@@ -55,7 +55,8 @@ Docs: https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurat
 
   - Python: `pip install basedpyright`
   - Docker: `npm install -g dockerfile-language-server-nodejs`
-  - Typescript/HTML/CSS/JSON/ESLint: `npm i -g vscode-langservers-extracted`
+  - HTML/CSS/JSON/ESLint: `npm i -g vscode-langservers-extracted`
+  - Typescript: `npm i -g typescript-language-server`
   - GraphQL: `npm install -g graphql-language-service-cli`
   - Markdown: Via LSPInstaller
 
