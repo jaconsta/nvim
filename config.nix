@@ -10,7 +10,6 @@
         ripgrep
         xsel
         mise
-        typescript-language-server
       ];
     };
   };
